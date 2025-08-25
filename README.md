@@ -1,6 +1,6 @@
-🛰️ CCNA Network Design & Implementation
+CCNA Network Design & Implementation
 
-📌 Overview
+📌 Overview :
 
 This project is a CCNA-level network design that demonstrates advanced LAN switching and routing techniques.
 It covers VLAN segmentation, IP routing, HSRP, ACLs, DHCP services, and security mechanisms to ensure high availability and secure communication between different departments.
@@ -9,7 +9,7 @@ The network is divided into multiple VLANs, each representing a different depart
 Only the IT department is allowed to access switches for management purposes, while inter-VLAN communication is restricted by ACLs.
 
 
-⚙️ Features & Technologies Used
+⚙️ Features & Technologies Used :
 
 ✅ VLAN Segmentation (Departments: IT, HR, Finance, Healthcare, Production, Call Center)
 
@@ -29,7 +29,7 @@ Only the IT department is allowed to access switches for management purposes, wh
 
 
 
-## 🖥️ Network VLANs & IP Schema
+## 🖥️ Network VLANs & IP Schema :
 
 | Department      | VLAN | Network          | Gateway       |
 |-----------------|------|------------------|---------------|
@@ -56,7 +56,7 @@ password: 123456
 
 
 
-🚀 How to Run
+🚀 How to Run :
 
 Open the project in Cisco Packet Tracer (or GNS3 if adapted).
 
@@ -76,7 +76,7 @@ show standby brief
 
 
 
-🔐 Security Measures Implemented
+🔐 Security Measures Implemented :
 
 DHCP Snooping to prevent rogue DHCP servers
 
@@ -90,7 +90,7 @@ STP Root Guard & BPDU Guard to protect spanning tree topology
 
 
 
-📈 Future Enhancements
+📈 Future Enhancements :
 
 Implement Syslog + SNMP monitoring
 
@@ -99,6 +99,10 @@ Add NAT + Internet Access simulation
 Configure VPN tunnels for remote access
 
 Deploy AAA authentication (TACACS+/RADIUS) for advanced security
+
+
+📸 Photos :
+<img width="1752" height="635" alt="d2f95bc8-a8a7-401d-afa2-c81cb50943b4" src="https://github.com/user-attachments/assets/2032f5be-2951-480b-acf0-9a875d705efb" />
 
 👨‍💻 Author
 Mohamed Ahmed Metwally
